@@ -18,8 +18,8 @@ const CardStats = ({ title, value }: CardStatsProps) => {
   };
 
   return (
-    <div className="card flex items-center justify-between">
-      <div className="p-3 bg-[#E2F0FF] rounded-full">{iconMap[title]}</div>
+    <div className="card flex flex-col sm:flex-row items-center sm:items-center justify-center sm:justify-between gap-3 sm:gap-0">
+      <div className="p-3 bg-[#E2F0FF] rounded-full flex items-center justify-center">{iconMap[title]}</div>
       <div className="text-center">
         <h3 className="text-sm font-bold uppercase">{title}</h3>
         <p className="text-2xl font-bold text-[#17A9E2]">{value}</p>
