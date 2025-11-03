@@ -18,7 +18,7 @@ const menuItems = [
     label: "Product",
     icon: LiaShoppingBagSolid,
     subItems: [
-      { label: "Bank Product", href: "/bank/bank-product" },
+      { label: "Bank Product", href: "/product/bank-product" },
       { label: "Product", href: "#" },
       { label: "Product Category", href: "#" },
     ],

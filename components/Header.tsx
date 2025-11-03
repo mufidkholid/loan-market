@@ -8,8 +8,8 @@ const Header = () => {
 
   const titleMap: Record<string, string> = {
     "/": "Dashboard",
-    "/bank/bank-product": "Product",
-    "/bank/bank-product/[id]": "Product",
+    "/product/bank-product": "Product",
+    "/product/bank-product/[id]": "Product",
     "/loan/choose-product": "Edit Application",
     "/loan/address": "Edit Application",
     "/loan/upload-document": "Edit Application",

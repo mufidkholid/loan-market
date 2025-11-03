@@ -10,7 +10,7 @@ export default function ProductDetailPage() {
   const handleBack = () => router.back();
 
   const handleEdit = () => {
-    router.push(`/bank/bank-product/edit/${productId}`);
+    router.push(`/product/bank-product/edit/${productId}`);
   };
 
   return (
